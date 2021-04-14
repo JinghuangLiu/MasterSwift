@@ -25,6 +25,10 @@
 /* Begin PBXFileReference section */
 		DE196F952625C77600015004 /* SwiftcDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftcDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE196F982625C77600015004 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DE196FA026269DA300015004 /* main.ir */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.ir; sourceTree = "<group>"; };
+		DE196FA126269DA300015004 /* main.ast */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.ast; sourceTree = "<group>"; };
+		DE196FA226269DA300015004 /* main.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = main.s; sourceTree = "<group>"; };
+		DE196FA326269DA300015004 /* main.sil */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.sil; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,10 @@
 		DE196F972625C77600015004 /* SwiftcDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DE196FA126269DA300015004 /* main.ast */,
+				DE196FA026269DA300015004 /* main.ir */,
+				DE196FA226269DA300015004 /* main.s */,
+				DE196FA326269DA300015004 /* main.sil */,
 				DE196F982625C77600015004 /* main.swift */,
 			);
 			path = SwiftcDemo;
