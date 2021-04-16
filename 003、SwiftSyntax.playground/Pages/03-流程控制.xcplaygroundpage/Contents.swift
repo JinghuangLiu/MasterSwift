@@ -1,5 +1,3 @@
-//: [Previous](@previous)
-
 ///for循环
 
 let names = ["zhangsan","lisi","wangwu","zhaoliu"]
